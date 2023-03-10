@@ -6,8 +6,8 @@ const DISTRIBUTION_DIRECTORY = path.join("dist");
 
 export default {
   versions: {
-    rn: "0.64.0",
-    node: "14.15.4"
+    rn: "0.71.4",
+    node: "18.15.0"
   },
   constants: {},
   scaffold: {

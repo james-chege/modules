@@ -31,16 +31,32 @@ fs.copyFileSync(
   path.join(cwd, "babel.config.js")
 );
 fs.copyFileSync(
-  path.join(customFiles, "webpack.config.js"),
-  path.join(cwd, "webpack.config.js")
-);
-fs.copyFileSync(
   path.join(customFiles, "heroku.yml"),
   path.join(cwd, "heroku.yml")
 );
 fs.copyFileSync(
   path.join(customFiles, "Dockerfile"),
   path.join(cwd, "Dockerfile")
+);
+fs.copyFileSync(
+  path.join(customFiles, ".ruby-version"),
+  path.join(cwd, ".ruby-version")
+);
+fs.copyFileSync(
+  path.join(customFiles, ".node-version"),
+  path.join(cwd, ".node-version")
+);
+fs.copyFileSync(
+  path.join(customFiles, "fileTransformer.js"),
+  path.join(cwd, "fileTransformer.js")
+);
+fs.copyFileSync(
+  path.join(customFiles, "jestSetup.js"),
+  path.join(cwd, "jestSetup.js")
+);
+fs.copyFileSync(
+  path.join(customFiles, "tsconfig.json"),
+  path.join(cwd, "tsconfig.json")
 );
 fs.copyFileSync(
   path.join(customFiles, "metro.config.js"),
